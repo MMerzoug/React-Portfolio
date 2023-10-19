@@ -27,25 +27,29 @@ export default function Work() {
             name: 'Job.BI',
             description: ' Job.BI is an education and career resource webpage that provides users with a platform to explore courses and job opportunities. It aims to assist individuals in enhancing their knowledge, skills, and career prospects by offering a curated collection of courses and job postings.',
             img:  Job_BIImg , 
-            alt: 'image of Job.BI landing page'
+            alt: 'image of Job.BI landing page',
+            href: "https://markthos.github.io/Job.BI/."
         },
         {
             name: 'Horiseo',
             description: ' This project involves optimizing a marketing agencies website to comply with accessibility standards, enhancing its search engine optimization (SEO). By leveraging semantic HTML elements, logical structure, accessible alt attributes, proper heading hierarchy, and descriptive titles, the website became more user-friendly and inclusive. The process underscored the interplay between accessibility, user experience, and SEO, highlighting the importance of these elements in creating an effective web presence.',
             img:  HoriseoImg , 
-            alt: 'image of Horiseo landing page'
+            alt: 'image of Horiseo landing page',
+            href:"https://mmerzoug.github.io/Challenge-01-HTML-CSS-Git/"
         },
         {
             name: 'Note Taker Assistant',
             description: ' This is a simple note-taking application designed to assist small business owners in organizing their thoughts and keeping track of tasks. Users can write and save notes, view existing notes, and delete notes if the Bonus functionality is implemented.',
             img:  Note_Taker_AssistantImg , 
-            alt: 'image of Note Taker Assistant landing page'
+            alt: 'image of Note Taker Assistant landing page',
+            href: "https://note-taker-assistant-4646e0adb56a.herokuapp.com"
         },
         {
             name: 'Offline Text Editor',
             description: ' Offline Text Editor is a project that allows you to edit and save text even when you are offline. It includes features for storing and retrieving text from an IndexedDB database, making it useful for scenarios where internet connectivity may be unreliable.',
             img:  Offline_Text_EditorImg , 
-            alt: 'image of Offline Text Editor landing page'
+            alt: 'image of Offline Text Editor landing page',
+            href:"https://github.com/MMerzoug/Offline-Text-Editor"
         },
     ]
 
