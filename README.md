@@ -97,4 +97,4 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 https://github.com/MMerzoug/React-Portfolio.git
 
 ### Project URL
-https://monique-merzoug-portfolio-fb42220e70a0.herokuapp.com
+https://mmerzoug.github.io/React-Portfolio/
