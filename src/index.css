@@ -1,0 +1,366 @@
+/*Universal Selector*/
+* {
+  padding: 10px;
+  margin: 1px;
+  background-color: #fcf7f7;
+  font-family: Montserrat, serif;
+  color: #3c3d3a;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  color: grey;
+}
+
+h1 {
+  font-size: 300%;
+  color: #3c3d3a;
+}
+
+/*nav tags in header*/
+a {
+  font-size: 22px;
+  justify-content: left;
+  padding: 0px;
+  color: #3c3d3a;
+}
+
+
+nav ul {
+  display: flex;
+  background-color: #fcf7f7;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+h2 {
+  width: 100%;
+  text-align: center;
+  font-size: 200%;
+  padding: 3%;
+  color: #3c3d3a;
+}
+
+/*Profile image*/
+.wrapper {
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+figure>img {
+  max-height: 475px;
+  max-width: 475px;
+  border-radius: 50%;
+ margin-right: 5%;
+}
+
+/*Work images*/
+img {
+  max-height: 90%;
+  max-width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-left: 5%;
+}
+p {
+  text-align: center;
+  width: 100%;
+}
+
+.work {
+  display: flex;
+  align-items: center;
+  align-self: stretch;
+  width:100%;
+  flex-wrap: wrap;
+}
+
+#prework-study-guide {
+  flex: 1 1 750px;
+  min-height: 100%;
+}
+
+#project {
+  flex: 1 1 550px;
+  align-items: center;
+}
+
+.content {
+  padding: 1em 2em;
+  margin-bottom: 3em;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 1em;
+  background-color: white;
+}
+
+.content p,
+.content a {
+  background-color: white;
+  border: none;
+}
+
+/* Make the images invisible by default */
+.Containers {
+  display: block;
+  border-style: solid;
+  border-radius: 1em;
+  border-width: 2px;
+  background-color: white;
+}
+
+.Containers p {
+  width: 100%;
+  text-align: center;
+  padding: 2%;
+  background-color: white;
+}
+
+
+/* forward & Back buttons */
+.Back,
+.forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 7px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+  background-color: white;
+  border-style: solid;
+}
+
+.forward {
+  cursor: pointer;
+  position: absolute;
+  top: 48%;
+  width: auto;
+  margin-top: -23px;
+  padding: 7px;
+  color: grey;
+  font-weight: bold;
+  font-size: 19px;
+  transition: 0.4s ease;
+  border-radius: 0 5px 5px 0;
+  user-select: none;
+  background-color: white;
+  border-style: solid;
+}
+
+/* Place the "forward button" to the right */
+.forward {
+  right: 0;
+  border-radius: 4px 0 0 4px;
+}
+
+/*when the user hovers,add a white background */
+.Back:hover,
+.forward:hover {
+  background-color: white;
+}
+
+/* Caption Info */
+.Info {
+  font-size: 16px;
+  padding: 10px 14px;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+}
+
+/* The circles or bullets and indicators */
+.dots {
+  cursor: pointer;
+  height: 16px;
+  width: 16px;
+  margin: 0 3px;
+  background-color: #acc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.5s ease;
+}
+
+.enable,
+.dots:hover {
+  background-color: #717161;
+}
+
+/*Contact Me form styling start*/
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border-style: solid;
+  border-color: grey;
+  border-radius: 1em;
+  background-color: white;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+}
+
+form li+li {
+  margin-top: 1em;
+  background-color: white;
+}
+
+form li {
+  background-color: white;
+}
+
+ label {
+ /* Uniform size & alignment */
+  display: inline-block;
+  width: 80px;
+  text-align: left;
+  background-color: white;
+} 
+
+input,
+textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em montserrat;
+
+  /* Uniform text field size */
+  width: 300px;
+  box-sizing: border-box;
+  padding: 1em;
+
+  /* Match form field borders */
+  border-radius: 1em;
+  border-color: grey;
+  border-style: solid;
+}
+
+input:focus,
+textarea:focus {
+  /* Additional highlight for focused elements */
+  border-radius: 1em;
+  border-color: grey;
+  border-style: solid;
+}
+
+textarea {
+  border-radius: 1em;
+  border-color: grey;
+  border-style: solid;
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  /* Align buttons with the text fields */
+  padding-left: 90px;
+  /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: 0.5em;
+  border-radius: 1em;
+  border-color: grey;
+  border-style: solid;
+}
+/*Contact Me form styling end*/
+
+.carousel-inner{
+  height: 600px;
+  border: grey solid;
+}
+
+.carousel-inner, 
+.carousel-item, 
+.carousel-caption, 
+.carousel-caption p,
+.carousel-caption h2{
+  background-color: white;
+  color: grey;
+  position: static !important;
+  border-radius: 1em;
+}
+
+.carousel-control-prev-icon, 
+.carousel-control-next-icon
+{
+  background-color: grey;
+}
+
+.carousel-indicators {
+  background-color: white;
+}
+/*bottom icon bar*/
+.icon-bar {
+  width: 50%;
+  /* Full-width */
+  background-color: #fcf7f7;
+  ;
+  /* white background */
+  overflow: auto;
+  /* Overflow due to float */
+  text-align: center;
+  margin-left: 25%;
+}
+
+.icon-bar a {
+  float: center;
+  /* Float links side by side */
+  text-align: center;
+  /* Center-align text */
+  width: 16%;
+  /* Equal width (5 icons with 20% width each = 100%) */
+  padding: 0;
+  /* Some top and bottom padding */
+  transition: all 0.3s ease;
+  /* Add transition for hover effects */
+  color: #3c3d3a;
+  /* text color */
+  font-size: 36px;
+  /* Increased font size */
+}
+
+.icon-bar a:hover {
+  background-color: #eddada;
+  /* Add a hover color */
+}
+
+@media screen and (max-width:992px) {
+  .work{
+    width: 100%;
+  }
+} 
+  
+@media screen and (max-width:768px) {
+  .work {
+    width: 100%;
+  }
+} 
+
+@media screen and (max-width:576px) {
+  .work {
+    width: 100%;
+  }
+} 
+
+
