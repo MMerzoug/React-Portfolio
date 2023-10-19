@@ -13,13 +13,15 @@ export default function Work() {
             name: 'Code-E',
             description: ' Code-E is a full-stack web applicationthat helps users simplify their coding journey. Code-E aims to enhance developers coding skills and provide valuable insights into their code. This application is built using React, GraphQL, Node, Express, MongoDB, Mongoose, and is deployed on Heroku.',
             img:  Code_EImg , 
-            alt: 'image of Code-E landing page'
+            alt: 'image of Code-E landing page',
+            href: "https://best-code-bot-ever-6c020fa64dc5.herokuapp.com"
         },
         {
             name: 'Linguini',
             description: 'The linguini-language-tutoring repository is a full-stack web application that allows students to schedule tutoring sessions with tutors. The application is built using Express, MySQL, Sequelize, Node, and Passport.',
             img:  linguiniImg , 
-            alt: 'image of linguini landing page'
+            alt: 'image of linguini landing page',
+            href: "https://pasta-fagioli-b817a8e5488d.herokuapp.com/"
         },
         {
             name: 'Job.BI',
@@ -53,7 +55,7 @@ export default function Work() {
 
             {projects.map(project => (
                 <div class="content" id="prework-study-guide">
-                    <a href="https://pasta-fagioli-b817a8e5488d.herokuapp.com/">
+                    <a href={ project.href}>
                         <img src={project.img} alt={project.alt} />
                     </a>
                     <p>{project.description}</p>
