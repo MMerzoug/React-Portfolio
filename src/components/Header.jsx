@@ -1,4 +1,4 @@
-
+import {Link} from "react-router-dom"
 
 export default function Header({page, setPage}) {
 
@@ -10,16 +10,20 @@ export default function Header({page, setPage}) {
                 <nav>
                     <ul>
                         <li>
-                            <a href="#" onClick={()=> setPage('about')}>About Me</a>
+                            {/* <a href="#" onClick={()=> setPage('about')}>About Me</a> */}
+                            <Link to= "/" > About Me</Link>
                         </li>
                         <li>
-                            <a href="#" onClick={()=> setPage('work')}>Work</a>
+                            {/* <a href="#" onClick={()=> setPage('work')}>Work</a> */}
+                            <Link to= "/Work" > Work</Link>
                         </li>
                         <li>
-                            <a href="#" onClick={()=> setPage('contact')}>Contact Me</a>
+                            {/* <a href="#" onClick={()=> setPage('contact')}>Contact Me</a> */}
+                            <Link to= "/Contact" > Contact</Link>
                         </li>
                         <li>
-                            <a href="#" onClick={()=> setPage('resume')}>Resume</a>
+                            {/* <a href="#" onClick={()=> setPage('resume')}>Resume</a> */}
+                            <Link to= "/Resume" > Resume</Link>
                         </li>
                     </ul>
                 </nav>
